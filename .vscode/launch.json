@@ -1,0 +1,14 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "name": "Depurar exercício 10",
+      "type": "node",
+      "request": "launch",
+      "runtimeExecutable": "node",
+      "runtimeArgs": ["--import", "tsx"],
+      "program": "${workspaceFolder}/src/exercicio10.ts",
+      "skipFiles": ["<node_internals>/**"]
+    }
+  ]
+}

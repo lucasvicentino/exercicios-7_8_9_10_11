@@ -1,0 +1,22 @@
+{
+  "name": "exercicios-7-a-11",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "exercicio:7": "tsx src/exercicio7.ts",
+    "exercicio:8": "tsx src/exercicio8.ts",
+    "exercicio:9": "tsx src/exercicio9.ts",
+    "exercicio:10": "tsx src/exercicio10.ts",
+    "exercicio:11": "node --expose-gc --import tsx src/exercicio11.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.23",
+    "@types/node": "^22.15.30",
+    "tsx": "^4.19.4",
+    "typescript": "^5.8.3"
+  }
+}
